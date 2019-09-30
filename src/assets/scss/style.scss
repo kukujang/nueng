@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap&subset=thai");
+
+$browser-context: 16;
+
+$font-main: Chakra Petch;
+
+$color-black: #222831;
+$color-grey: #393e46;
+$color-blue: #00adb5;
+$color-white: #eeeeee;
+
+@import "mixin";
+@import "global";

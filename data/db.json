@@ -1,0 +1,28 @@
+{
+  "portfolios": [
+    {
+      "id": 1,
+      "title": "EEC",
+      "desc": "เว็บ EEC",
+      "link": "https://eec-web.jigsawgroups.work/en"
+    },
+    {
+      "id": 2,
+      "title": "Jigsaw",
+      "desc": "Jigsaw Groups",
+      "link": "https://www.jigsawgroups.work/th"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "desc": "Can create HTML / HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "desc": "Can create CSS / CSS3"
+    }
+  ]
+}

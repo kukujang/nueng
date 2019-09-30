@@ -1,0 +1,27 @@
+import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+
+class MainNav extends Component {
+	render() {
+		return (
+			<div className="main-nav">
+				<ul className="clearfix font-style-4">
+					<li>
+						<NavLink exact to="/" activeClassName="active">Profile</NavLink>
+					</li>
+					<li>
+						<NavLink to="/Skill" activeClassName="active">Skill</NavLink>
+					</li>
+					<li>
+						<NavLink to="/Experience" activeClassName="active">Experience</NavLink>
+					</li>
+					<li>
+						<NavLink to="/Portfolio" activeClassName="active">Portfolio</NavLink>
+					</li>
+				</ul>
+			</div>
+		);
+	}
+}
+
+export default MainNav;
