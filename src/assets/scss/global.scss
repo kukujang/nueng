@@ -235,6 +235,26 @@ img {
       padding: 0;
       list-style-type: none;
       font-size: rem(12);
+      margin: .5rem .5rem 0 0;
+      display: block;
+      float: left;
+      a {
+        background: $color-grey;
+        color: $color-white;
+        display: inline-block;
+        padding: 0 .25rem;
+      }
+    }
+    .line {
+      background: #00c300;
+      color: $color-black;
+    }
+    .facebook {
+      background: #3b5998;
+    }
+    .github {
+      background: $color-white;
+      color: $color-black;
     }
   }
 }
