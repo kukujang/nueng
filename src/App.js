@@ -6,23 +6,25 @@ import Home from './containers/Home';
 import Skill from './containers/Skill';
 import Experience from './containers/Experience';
 import Portfolio from './containers/Portfolio';
+import ReactGA from 'react-ga';
 
 class App extends Component {
 
-  renderRouter(){
-    return(
-      <Switch>
-        <Route path='/skill' component={Skill} />
-        <Route path='/experience' component={Experience} />
-        <Route path='/portfolio' component={Portfolio} />
-        <Route path='/' component={Home} />
-      </Switch>
-    )
+  componentDidMount() {
+    ReactGA.initialize('UA-149166160-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   render() {
     return(
-      <BrowserRouter>{this.renderRouter()}</BrowserRouter>
+      <BrowserRouter>
+        <Switch>
+          <Route path='/skill' component={Skill} />
+          <Route path='/experience' component={Experience} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/' component={Home} />
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
