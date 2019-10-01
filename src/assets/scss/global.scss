@@ -9,6 +9,9 @@ body {
 body {
   overflow: hidden;
   position: relative;
+  @include media-breakpoint-max-md {
+    padding: 190px 0 0 0;
+  }
 }
 html {
   overflow: auto;
@@ -175,10 +178,12 @@ img {
     width: 230px;
   }
   @include media-breakpoint-max-md {
-    position: relative;
-    left: auto;
-    top: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     bottom: auto;
+    z-index: 10;
     width: 100%;
   }
 }
@@ -191,7 +196,7 @@ img {
     background: $color-blue;
     border: solid 5px $color-blue;
     @include media-breakpoint-max-md {
-      width: 30%;
+      flex: 0 0 100px;
     }
     img {
       display: block;
@@ -223,7 +228,7 @@ img {
     padding: 1rem;
     margin: 1rem 0 0 0;
     @include media-breakpoint-max-md {
-      width: 70%;
+      flex: 1;
       margin: 0;
     }
     ul {
@@ -274,10 +279,14 @@ img {
     left: 260px;
   }
   @include media-breakpoint-max-md {
-    position: relative;
-    left: auto;
-    top: auto;
+    box-shadow: 1px 1px 10px $color-blue;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 140px;
+    right: 0;
     bottom: auto;
+    z-index: 9;
     width: 100%;
   }
   ul {
