@@ -1,7 +1,7 @@
 import 'normalize.css';
 import './assets/scss/style.scss';
 import React, {Component} from 'react';
-import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import {HashRouter,Route,Switch} from 'react-router-dom';
 import Home from './containers/Home';
 import Skill from './containers/Skill';
 import Experience from './containers/Experience';
@@ -17,14 +17,14 @@ class App extends Component {
 
   render() {
     return(
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route path='/skill' component={Skill} />
           <Route path='/experience' component={Experience} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/' component={Home} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
