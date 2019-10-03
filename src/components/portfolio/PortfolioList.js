@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import PortfolioItem from "./PortfolioItem";
-import shortid from 'shortid';
-
 
 class PortfolioList extends Component {
 	showData() {
@@ -13,17 +11,7 @@ class PortfolioList extends Component {
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
-						source={port.sources.map(sources => (
-							<span className="item" key={shortid.generate()}>
-								<a 
-									href={sources.link}
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									{sources.name}
-								</a>
-							</span>
-						))}
+						sources={port.sources}
 					/>
 				));
 			case "HTML5/CSS3/Animation":
@@ -33,17 +21,7 @@ class PortfolioList extends Component {
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
-						source={port.sources.map(sources => (
-							<span className="item" key={shortid.generate()}>
-								<a 
-									href={sources.link}
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									{sources.name}
-								</a>
-							</span>
-						))}
+						sources={port.sources}
 					/>
 				));
 			case "HTML5/CSS3/Responsive":
@@ -53,17 +31,7 @@ class PortfolioList extends Component {
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
-						source={port.sources.map(sources => (
-							<span className="item" key={shortid.generate()}>
-								<a 
-									href={sources.link}
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									{sources.name}
-								</a>
-							</span>
-						))}
+						sources={port.sources}
 					/>
 				));
 			case "HTML5/CSS3":
@@ -73,17 +41,7 @@ class PortfolioList extends Component {
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
-						source={port.sources.map(sources => (
-							<span className="item" key={shortid.generate()}>
-								<a 
-									href={sources.link}
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									{sources.name}
-								</a>
-							</span>
-						))}
+						sources={port.sources}
 					/>
 				));
 			case "Wordpress":
@@ -93,17 +51,7 @@ class PortfolioList extends Component {
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
-						source={port.sources.map(sources => (
-							<span className="item" key={shortid.generate()}>
-								<a 
-									href={sources.link}
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									{sources.name}
-								</a>
-							</span>
-						))}
+						sources={port.sources}
 					/>
 				));
 			default:
