@@ -376,11 +376,21 @@ img {
     }
     .item {
       margin-left: .25rem;
+      display: inline-block;
       &:first-child {
         margin-left: 0;
       }
       a {
         color: $color-white;
+      }
+      &.github {
+        a {
+          background: url('../img/logo-github-16.png') no-repeat 0 0;
+          width: 16px;
+          height: 16px;
+          text-indent: -9999px;
+          display: block;
+        }
       }
     }
   }
