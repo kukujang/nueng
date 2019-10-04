@@ -4,17 +4,6 @@
       "category": "React.js",
       "works": [
         {
-          "title": "CTN",
-          "desc": "CTN Test",
-          "link": "http://www.nueng.work/test/ctn/build/",
-          "sources": [
-            {
-              "name": "Github",
-              "link": "https://github.com/kukujang/ctn-test"
-            }
-          ]
-        },
-        {
           "title": "Nueng.work",
           "desc": "",
           "link": "http://www.nueng.work/",
@@ -22,6 +11,17 @@
             {
               "name": "Github",
               "link": "https://github.com/kukujang/nueng"
+            }
+          ]
+        },
+        {
+          "title": "CTN Test",
+          "desc": "CTN Test",
+          "link": "http://www.nueng.work/test/ctn/build/",
+          "sources": [
+            {
+              "name": "Github",
+              "link": "https://github.com/kukujang/ctn-test"
             }
           ]
         },
