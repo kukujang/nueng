@@ -14,7 +14,7 @@ class PortfolioItem extends Component {
 			<div className="portfolio-item">
 				<ul>
 					<li><span className="name">{title}</span></li>
-					<li><a href={link} target="_blank" rel="noopener noreferrer">DEMO</a></li>
+					{link===""?"":<li><a href={link} target="_blank" rel="noopener noreferrer">DEMO</a></li>}
 					{sources[0].name===""?"":<li>{sources.map(getSourceItem)}</li>}
 				</ul>
 			</div>

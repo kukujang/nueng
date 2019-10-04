@@ -36,11 +36,11 @@ class Portfolio extends Component {
 					/>
 					<PortfolioList
 						portfolios={this.state.portfolios}
-						category="HTML5/CSS3/Responsive"
+						category="HTML/CSS/Responsive"
 					/>
 					<PortfolioList
 						portfolios={this.state.portfolios}
-						category="HTML5/CSS3"
+						category="HTML/CSS"
 					/>
 					<PortfolioList
 						portfolios={this.state.portfolios}

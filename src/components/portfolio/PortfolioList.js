@@ -34,7 +34,7 @@ class PortfolioList extends Component {
 						sources={port.sources}
 					/>
 				));
-			case "HTML5/CSS3":
+			case "HTML/CSS":
 				return this.props.portfolios[3].works.map(port => (
 					<PortfolioItem 
 						key={port.id}
