@@ -1,11 +1,9 @@
 {
   "portfolios": [
     {
-      "id": 1,
       "category": "React.js",
       "works": [
         {
-          "id": 1,
           "title": "CTN",
           "desc": "CTN Test",
           "link": "http://www.nueng.work/test/ctn/build/",
@@ -17,8 +15,7 @@
           ]
         },
         {
-          "id": 2,
-          "title": "Nueng",
+          "title": "Nueng.work",
           "desc": "",
           "link": "http://www.nueng.work/",
           "sources": [
@@ -29,7 +26,6 @@
           ]
         },
         {
-          "id": 3,
           "title": "Autopair.co",
           "desc": "เว็บไซต์ Autopair.co",
           "link": "https://www.autopair.co/",
@@ -43,11 +39,9 @@
       ]
     },
     {
-      "id": 2,
       "category": "HTML5/CSS3/Animation",
       "works": [
         {
-          "id": 1,
           "title": "EEC",
           "desc": "เว็บไซต์ Responsive เพิ่ม Animation สไตล์เรียบหรู และกระฉับกระเฉง",
           "link": "https://eec-web.jigsawgroups.work/en",
@@ -59,7 +53,6 @@
           ]
         },
         {
-          "id": 2,
           "title": "EEC (Old)",
           "desc": "เว็บไซต์ Responsive เพิ่ม Animation สไตล์เรียบหรู และกระฉับกระเฉง",
           "link": "http://www.nueng.work/test/eec/",
@@ -71,7 +64,17 @@
           ]
         },
         {
-          "id": 3,
+          "title": "Vitallife",
+          "desc": "",
+          "link": "http://www.nueng.work/test/vitallife/",
+          "sources": [
+            {
+              "name": "",
+              "link": ""
+            }
+          ]
+        },
+        {
           "title": "Jigsaw",
           "desc": "เว็บไซต์ Responsive ดีไซน์ยาก",
           "link": "https://www.jigsawgroups.work/th",
@@ -83,7 +86,6 @@
           ]
         },
         {
-          "id": 4,
           "title": "Wildcat",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2019/wildcat/",
@@ -95,7 +97,6 @@
           ]
         },
         {
-          "id": 5,
           "title": "Playingcard",
           "desc": "-",
           "link": "http://www.nueng.work/test/playcard/",
@@ -107,7 +108,6 @@
           ]
         },
         {
-          "id": 6,
           "title": "Toyota Yaris",
           "desc": "-",
           "link": "http://www.nueng.work/files/56/",
@@ -119,7 +119,6 @@
           ]
         },
         {
-          "id": 7,
           "title": "Modela",
           "desc": "-",
           "link": "http://www.nueng.work/files/31/",
@@ -131,7 +130,6 @@
           ]
         },
         {
-          "id": 8,
           "title": "Enfa Parallax",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2016/enfa-parallax/",
@@ -143,7 +141,6 @@
           ]
         },
         {
-          "id": 9,
           "title": "Meiji Survey",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2018/meiji-crm-online-survey/",
@@ -155,7 +152,6 @@
           ]
         },
         {
-          "id": 10,
           "title": "Toyota Material Handling",
           "desc": "-",
           "link": "http://www.nueng.work/test/toyota/",
@@ -167,7 +163,6 @@
           ]
         },
         {
-          "id": 11,
           "title": "Sony Festival 2018",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2017/sony-festival-2018/",
@@ -179,7 +174,6 @@
           ]
         },
         {
-          "id": 12,
           "title": "Sony ActionCam",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2018/sony-actioncam/",
@@ -191,7 +185,6 @@
           ]
         },
         {
-          "id": 13,
           "title": "Sony Big Match Day",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2018/sony-big-match-day/",
@@ -203,7 +196,6 @@
           ]
         },
         {
-          "id": 14,
           "title": "Sony Day 2017",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2017/sonyday-2017/",
@@ -215,7 +207,6 @@
           ]
         },
         {
-          "id": 15,
           "title": "Sony ActionCam Ladies",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2017/sony-actioncam-ladies/",
@@ -227,7 +218,6 @@
           ]
         },
         {
-          "id": 16,
           "title": "E-tax",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2017/etax/",
@@ -239,7 +229,6 @@
           ]
         },
         {
-          "id": 17,
           "title": "Acer Infinite Work&Play",
           "desc": "-",
           "link": "http://www.nueng.work/files/28/",
@@ -251,7 +240,6 @@
           ]
         },
         {
-          "id": 18,
           "title": "Acer Hybrid",
           "desc": "-",
           "link": "http://www.nueng.work/files/35/",
@@ -263,7 +251,6 @@
           ]
         },
         {
-          "id": 19,
           "title": "Acer Liquid C1",
           "desc": "-",
           "link": "http://www.nueng.work/files/34/",
@@ -275,7 +262,6 @@
           ]
         },
         {
-          "id": 20,
           "title": "Acer Gateway HX Series",
           "desc": "-",
           "link": "http://www.nueng.work/files/40/",
@@ -287,7 +273,6 @@
           ]
         },
         {
-          "id": 21,
           "title": "Acer Commart November 2013",
           "desc": "-",
           "link": "http://www.nueng.work/files/41/",
@@ -299,7 +284,6 @@
           ]
         },
         {
-          "id": 22,
           "title": "Acer Iconia | W3",
           "desc": "-",
           "link": "http://www.nueng.work/files/42/",
@@ -311,7 +295,6 @@
           ]
         },
         {
-          "id": 23,
           "title": "Acer Liquid | Z3",
           "desc": "-",
           "link": "http://www.nueng.work/files/43/",
@@ -323,7 +306,6 @@
           ]
         },
         {
-          "id": 24,
           "title": "Acer Liquid S1 | S510",
           "desc": "-",
           "link": "http://www.nueng.work/files/44/",
@@ -335,7 +317,6 @@
           ]
         },
         {
-          "id": 25,
           "title": "Acer Aspire V5",
           "desc": "-",
           "link": "http://www.nueng.work/files/38/",
@@ -347,7 +328,6 @@
           ]
         },
         {
-          "id": 26,
           "title": "Acer Iconia | W510",
           "desc": "-",
           "link": "http://www.nueng.work/files/30/",
@@ -359,7 +339,6 @@
           ]
         },
         {
-          "id": 27,
           "title": "Acer Commart Next Gen Thailand'13",
           "desc": "-",
           "link": "http://www.nueng.work/files/36/",
@@ -371,7 +350,6 @@
           ]
         },
         {
-          "id": 28,
           "title": "Lenovo Yoga",
           "desc": "-",
           "link": "http://www.nueng.work/files/29/",
@@ -383,7 +361,6 @@
           ]
         },
         {
-          "id": 30,
           "title": "Lenovo Sleek",
           "desc": "-",
           "link": "http://www.nueng.work/files/27/",
@@ -395,7 +372,6 @@
           ]
         },
         {
-          "id": 31,
           "title": "Lenovo IdeaPad",
           "desc": "-",
           "link": "http://www.nueng.work/files/26/",
@@ -407,7 +383,6 @@
           ]
         },
         {
-          "id": 32,
           "title": "Lenovo Activity",
           "desc": "-",
           "link": "http://www.nueng.work/files/39/",
@@ -419,7 +394,6 @@
           ]
         },
         {
-          "id": 33,
           "title": "Toshiba Satellite M840",
           "desc": "-",
           "link": "http://www.nueng.work/files/25/",
@@ -431,7 +405,6 @@
           ]
         },
         {
-          "id": 34,
           "title": "Design Sentiment",
           "desc": "-",
           "link": "http://www.nueng.work/files/3/",
@@ -443,7 +416,6 @@
           ]
         },
         {
-          "id": 35,
           "title": "MOVEaBAR",
           "desc": "-",
           "link": "http://www.nueng.work/files/17/",
@@ -455,7 +427,6 @@
           ]
         },
         {
-          "id": 36,
           "title": "Tashiba Canvio Series",
           "desc": "-",
           "link": "http://www.nueng.work/files/32/",
@@ -467,7 +438,6 @@
           ]
         },
         {
-          "id": 37,
           "title": "AIA Music Run",
           "desc": "-",
           "link": "http://www.nueng.work/files/website/2018/aia-musicrun/",
@@ -481,11 +451,9 @@
       ]
     },
     {
-      "id": 3,
       "category": "HTML/CSS/Responsive",
       "works": [
         {
-          "id": 1,
           "title": "MCFIVA 2019",
           "desc": "",
           "link": "http://mcfiva.com/",
@@ -497,7 +465,6 @@
           ]
         },
         {
-          "id": 2,
           "title": "Degree",
           "desc": "",
           "link": "http://www.kukujang.com/portfolio/website/2018/degree/",
@@ -509,7 +476,6 @@
           ]
         },
         {
-          "id": 3,
           "title": "Govtech",
           "desc": "",
           "link": "http://www.kukujang.com/portfolio/website/2018/govtech/",
@@ -521,7 +487,6 @@
           ]
         },
         {
-          "id": 4,
           "title": "Biore QA",
           "desc": "",
           "link": "http://www.biorethailand.com/campaign/biore-cleansingwater-makeupfoam-acnecare-62/",
@@ -533,7 +498,6 @@
           ]
         },
         {
-          "id": 5,
           "title": "Sony Alpha Universe",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2018/sony-universe/",
@@ -545,7 +509,6 @@
           ]
         },
         {
-          "id": 6,
           "title": "Sony Bravia Sale",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/sony-bravia-sale/",
@@ -557,7 +520,6 @@
           ]
         },
         {
-          "id": 7,
           "title": "3G iSmart Music",
           "desc": "",
           "link": "http://www.kukujang.com/portfolio/46/",
@@ -569,7 +531,6 @@
           ]
         },
         {
-          "id": 8,
           "title": "AIS SME",
           "desc": "",
           "link": "http://www.kukujang.com/portfolio/48/",
@@ -581,7 +542,6 @@
           ]
         },
         {
-          "id": 9,
           "title": "DITP Clmv",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/ditp-clmv/",
@@ -593,7 +553,6 @@
           ]
         },
         {
-          "id": 10,
           "title": "TCEB Unique Experience",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/unique-experience/",
@@ -605,7 +564,6 @@
           ]
         },
         {
-          "id": 11,
           "title": "Smart Village",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/smart-village/",
@@ -617,7 +575,6 @@
           ]
         },
         {
-          "id": 12,
           "title": "Ditp Logistics",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2018/ditp-logistics/",
@@ -629,7 +586,6 @@
           ]
         },
         {
-          "id": 13,
           "title": "DEPA Transformation",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2018/depa-transformation/",
@@ -641,7 +597,6 @@
           ]
         },
         {
-          "id": 14,
           "title": "KH4K",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2018/kh4k/",
@@ -653,7 +608,6 @@
           ]
         },
         {
-          "id": 15,
           "title": "Fragrant Group ( Register )",
           "desc": "",
           "link": "http://www.kukujang.com/portfolio/64/",
@@ -665,7 +619,6 @@
           ]
         },
         {
-          "id": 16,
           "title": "PAPER IDEAS STUDIO",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/paper/",
@@ -677,7 +630,6 @@
           ]
         },
         {
-          "id": 17,
           "title": "Biore Cleansing Water Acne Care",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/biore-cleansingwater-acnecare/",
@@ -689,7 +641,6 @@
           ]
         },
         {
-          "id": 18,
           "title": "Enfa Checklist 2017",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/enfa-checklist-2017/",
@@ -701,7 +652,6 @@
           ]
         },
         {
-          "id": 19,
           "title": "TMB OA",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2017/tmb-oa/",
@@ -713,7 +663,6 @@
           ]
         },
         {
-          "id": 20,
           "title": "Dnee Prince",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2018/dnee-prince/",
@@ -725,7 +674,6 @@
           ]
         },
         {
-          "id": 21,
           "title": "Able",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2018/able/",
@@ -737,7 +685,6 @@
           ]
         },
         {
-          "id": 22,
           "title": "Smartken.co",
           "desc": "",
           "link": "http://www.nueng.work/files/website/2018/smartken.co/",
@@ -751,11 +698,9 @@
       ]
     },
     {
-      "id": 4,
       "category": "HTML/CSS",
       "works": [
         {
-          "id": 1,
           "title": "Sony Online Store",
           "desc": "",
           "link": "http://www.nueng.work/files/11/",
@@ -767,7 +712,6 @@
           ]
         },
         {
-          "id": 2,
           "title": "Sony E-Training",
           "desc": "",
           "link": "http://www.nueng.work/files/12/",
@@ -779,7 +723,6 @@
           ]
         },
         {
-          "id": 3,
           "title": "Acer My Joyful",
           "desc": "",
           "link": "http://www.nueng.work/files/13/",
@@ -791,7 +734,6 @@
           ]
         },
         {
-          "id": 4,
           "title": "Acer Aspire S5",
           "desc": "",
           "link": "http://www.nueng.work/files/20/",
@@ -803,7 +745,6 @@
           ]
         },
         {
-          "id": 5,
           "title": "Acer All-in-One",
           "desc": "",
           "link": "http://www.nueng.work/files/37/",
@@ -815,7 +756,6 @@
           ]
         },
         {
-          "id": 6,
           "title": "Lenovo News & Promotion Today",
           "desc": "",
           "link": "http://www.nueng.work/files/14/",
@@ -827,7 +767,6 @@
           ]
         },
         {
-          "id": 7,
           "title": "Lenovo IdeaCentre A720",
           "desc": "",
           "link": "http://www.nueng.work/files/22/",
@@ -839,7 +778,6 @@
           ]
         },
         {
-          "id": 8,
           "title": "Dole",
           "desc": "",
           "link": "http://www.nueng.work/files/18/",
@@ -851,7 +789,6 @@
           ]
         },
         {
-          "id": 9,
           "title": "One Purina",
           "desc": "",
           "link": "http://www.nueng.work/files/19/",
@@ -863,7 +800,6 @@
           ]
         },
         {
-          "id": 10,
           "title": "PhD",
           "desc": "",
           "link": "http://www.nueng.work/files/21/",
@@ -875,7 +811,6 @@
           ]
         },
         {
-          "id": 11,
           "title": "Decoding Happiness by CIMB",
           "desc": "",
           "link": "http://www.nueng.work/files/24/",
@@ -889,11 +824,9 @@
       ]
     },
     {
-      "id": 5,
       "category": "Wordpress",
       "works": [
         {
-          "id": 1,
           "title": "ร้านตุ้มเมืองตาก",
           "desc": "",
           "link": "http://www.tummuangtak.com/",
@@ -905,7 +838,6 @@
           ]
         },
         {
-          "id": 2,
           "title": "3natt",
           "desc": "",
           "link": "",
@@ -917,7 +849,6 @@
           ]
         },
         {
-          "id": 3,
           "title": "Digistartup.net",
           "desc": "",
           "link": "",
