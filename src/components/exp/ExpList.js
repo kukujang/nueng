@@ -6,7 +6,7 @@ class ExpList extends Component {
 	showData() {
 		if (this.props.exps) {
 			return this.props.exps.map(exp => (
-				<ExpItem key={shortid.generate()} company={exp.company} when={exp.when} desc={exp.desc} />
+				<ExpItem key={shortid.generate()} company={exp.company} photo={exp.photo} photo2x={exp.photo2x} when={exp.when} desc={exp.desc} />
 			));
 		}
 	}

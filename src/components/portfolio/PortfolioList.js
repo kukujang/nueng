@@ -24,7 +24,7 @@ class PortfolioList extends Component {
 						sources={port.sources}
 					/>
 				));
-			case "HTML5/CSS3/Responsive":
+			case "HTML/CSS/Responsive":
 				return this.props.portfolios[2].works.map(port => (
 					<PortfolioItem 
 						key={port.id}

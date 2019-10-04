@@ -15,8 +15,8 @@ class Profile extends Component {
 				</div>
 				<h1 className="name font-style-4 align-center">Nuttaphol Anaman</h1>
 				<div className="block-contact">
-					<h2 className="head-subpage font-style-4">Contact:</h2>
-					<ul className="clearfix">
+					<h2 className="head-subpage font-style-5">Contact:</h2>
+					<ul>
 						<li><a href="mailto:nueng.nuttaphol@gmail.com" className="email" target="_blank" rel="noopener noreferrer">nueng.nuttaphol@gmail.com</a></li>
 						<li><a href="http://line.me/ti/p/~kukujang" className="line" target="_blank" rel="noopener noreferrer">LINE</a></li>
 						<li><a href="https://www.facebook.com/kukujang" className="facebook" target="_blank" rel="noopener noreferrer">Facebook</a></li>
