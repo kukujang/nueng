@@ -4,109 +4,109 @@
       "name": "HTML",
       "desc": "",
       "percent": "100",
-      "exp": "9 years"
+      "exp": "9 yrs"
     },
     {
       "name": "CSS",
       "desc": "",
       "percent": "100",
-      "exp": "9 years"
+      "exp": "9 yrs"
     },
     {
       "name": "SCSS",
       "desc": "",
-      "percent": "80",
-      "exp": "1.5 years"
+      "percent": "75",
+      "exp": "1.5 yrs"
     },
     {
       "name": "Bootstrap",
       "desc": "",
       "percent": "100",
-      "exp": "6 years"
+      "exp": "6 yrs"
     },
     {
       "name": "HTML Email",
       "desc": "",
       "percent": "100",
-      "exp": "8 years"
+      "exp": "8 yrs"
     },
     {
       "name": "HTML5/CSS3 Animation",
       "desc": "",
       "percent": "100",
-      "exp": "7 years"
+      "exp": "7 yrs"
     },
     {
       "name": "Responsive",
       "desc": "",
       "percent": "100",
-      "exp": "6 years"
+      "exp": "6 yrs"
     },
     {
       "name": "Photoshop",
       "desc": "",
-      "percent": "70",
-      "exp": "8 years"
+      "percent": "50",
+      "exp": "8 yrs"
     },
     {
       "name": "Basic Javascript",
       "desc": "",
-      "percent": "50",
-      "exp": "4 years"
+      "percent": "35",
+      "exp": "4 yrs"
     },
     {
       "name": "Gulp/Grunt",
       "desc": "",
-      "percent": "50",
-      "exp": "6 months"
+      "percent": "25",
+      "exp": "6 mos"
     },
     {
       "name": "jQuery",
       "desc": "",
       "percent": "50",
-      "exp": "4 years"
+      "exp": "4 yrs"
     },
     {
       "name": "SEO",
       "desc": "",
-      "percent": "50",
-      "exp": "1 years"
+      "percent": "25",
+      "exp": "1 yr"
     },
     {
       "name": "React.js",
       "desc": "",
-      "percent": "30",
-      "exp": "6 months"
+      "percent": "35",
+      "exp": "6 mos"
     },
     {
       "name": "Docker",
       "desc": "",
-      "percent": "30",
-      "exp": "6 month"
+      "percent": "25",
+      "exp": "6 mos"
     },
     {
       "name": "Wordpress",
       "desc": "",
-      "percent": "30",
-      "exp": "2 years"
+      "percent": "50",
+      "exp": "2 yrs"
     },
     {
       "name": "GIT",
       "desc": "",
       "percent": "50",
-      "exp": "1.5 years"
+      "exp": "1.5 yrs"
     },
     {
       "name": "GSAP",
       "desc": "",
-      "percent": "50",
-      "exp": "4 years"
+      "percent": "65",
+      "exp": "4 yrs"
     },
     {
       "name": "Basic UX/UI",
       "desc": "",
-      "percent": "30",
-      "exp": "1 years"
+      "percent": "25",
+      "exp": "1 yr"
     }
   ]
 }

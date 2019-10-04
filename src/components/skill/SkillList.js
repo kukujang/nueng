@@ -8,7 +8,7 @@ class SkillList extends Component {
     if (this.props.skills) {
       return this.props.skills.map(
         skill => (
-          <SkillItem key={shortid.generate()} name={skill.name} />
+          <SkillItem key={shortid.generate()} name={skill.name} percent={skill.percent} exp={skill.exp} />
         )
       )
     }

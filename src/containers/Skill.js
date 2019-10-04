@@ -5,7 +5,7 @@ import SkillList from "../components/skill/SkillList";
 import jsonData from "../data/skill.json";
 
 class Skill extends Component {
-	
+
 	constructor(props) {
 		super(props);
 		this.state = { skills: "" };
@@ -26,6 +26,13 @@ class Skill extends Component {
 				<div className="main">
 					<h1 className="head-page font-style-2">Skill</h1>
 					<SkillList skills={this.state.skills} />
+					<div className="notice-skill">
+						<ul>
+							<li className="expert">Expert</li>
+							<li className="intermediate">Intermediate</li>
+							<li className="beginner">Beginner</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		);
