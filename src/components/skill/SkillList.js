@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SkillItem from "./SkillItem";
+import shortid from 'shortid';
 
 class SkillList extends Component {
 
@@ -7,7 +8,7 @@ class SkillList extends Component {
     if (this.props.skills) {
       return this.props.skills.map(
         skill => (
-          <SkillItem name={skill.name} />
+          <SkillItem key={shortid.generate()} name={skill.name} />
         )
       )
     }
