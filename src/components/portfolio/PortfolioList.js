@@ -65,7 +65,7 @@ class PortfolioList extends Component {
 		return (
 			<div className="portfolio-list">
 				<h2 className="head-blue font-style-4">
-					<span>{category}</span>
+					<span className="bg">{category}</span>
 				</h2>
 				{this.showData()}
 			</div>
