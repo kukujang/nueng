@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PortfolioItem from "./PortfolioItem";
+import shortid from 'shortid';
 
 class PortfolioList extends Component {
 	showData() {
@@ -7,7 +8,7 @@ class PortfolioList extends Component {
 			case "React.js":
 				return this.props.portfolios[0].works.map(port => (
 					<PortfolioItem 
-						key={port.id}
+						key={shortid.generate()}
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
@@ -17,7 +18,7 @@ class PortfolioList extends Component {
 			case "HTML5/CSS3/Animation":
 				return this.props.portfolios[1].works.map(port => (
 					<PortfolioItem 
-						key={port.id}
+						key={shortid.generate()}
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
@@ -27,7 +28,7 @@ class PortfolioList extends Component {
 			case "HTML/CSS/Responsive":
 				return this.props.portfolios[2].works.map(port => (
 					<PortfolioItem 
-						key={port.id}
+						key={shortid.generate()}
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
@@ -37,7 +38,7 @@ class PortfolioList extends Component {
 			case "HTML/CSS":
 				return this.props.portfolios[3].works.map(port => (
 					<PortfolioItem 
-						key={port.id}
+						key={shortid.generate()}
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
@@ -47,7 +48,7 @@ class PortfolioList extends Component {
 			case "Wordpress":
 				return this.props.portfolios[4].works.map(port => (
 					<PortfolioItem 
-						key={port.id}
+						key={shortid.generate()}
 						title={port.title}
 						desc={port.desc}
 						link={port.link}
