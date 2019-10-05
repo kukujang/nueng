@@ -4,9 +4,9 @@ import shortid from 'shortid';
 
 class PortfolioList extends Component {
 	showData() {
-		switch (this.props.portfolios && this.props.category) {
+		switch (this.props.portfolios.portfolios && this.props.category) {
 			case "React.js":
-				return this.props.portfolios[0].works.map(port => (
+				return this.props.portfolios.portfolios[0].works.map(port => (
 					<PortfolioItem 
 						key={shortid.generate()}
 						title={port.title}
@@ -16,7 +16,7 @@ class PortfolioList extends Component {
 					/>
 				));
 			case "HTML5/CSS3/Animation":
-				return this.props.portfolios[1].works.map(port => (
+				return this.props.portfolios.portfolios[1].works.map(port => (
 					<PortfolioItem 
 						key={shortid.generate()}
 						title={port.title}
@@ -26,7 +26,7 @@ class PortfolioList extends Component {
 					/>
 				));
 			case "HTML/CSS/Responsive":
-				return this.props.portfolios[2].works.map(port => (
+				return this.props.portfolios.portfolios[2].works.map(port => (
 					<PortfolioItem 
 						key={shortid.generate()}
 						title={port.title}
@@ -36,7 +36,7 @@ class PortfolioList extends Component {
 					/>
 				));
 			case "HTML/CSS":
-				return this.props.portfolios[3].works.map(port => (
+				return this.props.portfolios.portfolios[3].works.map(port => (
 					<PortfolioItem 
 						key={shortid.generate()}
 						title={port.title}
@@ -46,7 +46,7 @@ class PortfolioList extends Component {
 					/>
 				));
 			case "Wordpress":
-				return this.props.portfolios[4].works.map(port => (
+				return this.props.portfolios.portfolios[4].works.map(port => (
 					<PortfolioItem 
 						key={shortid.generate()}
 						title={port.title}

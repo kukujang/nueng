@@ -2,18 +2,13 @@ import React, { Component } from "react";
 import Profile from "../components/Profile";
 import MainNav from "../components/MainNav";
 import SkillList from "../components/skill/SkillList";
-import jsonData from "../data/skill.json";
+import { connect } from "react-redux";
+import { skillFetch } from "../actions";
 
 class Skill extends Component {
 
-	constructor(props) {
-		super(props);
-		this.state = { skills: "" };
-	}
-
 	componentDidMount() {
-		//console.log(jsonData);
-		this.setState(jsonData);
+		this.props.skillFetch();
 	}
 
 	render() {
@@ -25,7 +20,7 @@ class Skill extends Component {
 				<MainNav />
 				<div className="main">
 					<h1 className="head-page font-style-2">Skill</h1>
-					<SkillList skills={this.state.skills} />
+					<SkillList skills={this.props.skills} />
 					<div className="notice-skill">
 						<ul>
 							<li className="expert">Expert</li>
@@ -39,4 +34,8 @@ class Skill extends Component {
 	}
 }
 
-export default Skill;
+function mapStateToProps(state) {
+	return { skills: state.skills}
+}
+
+export default connect(mapStateToProps, { skillFetch })(Skill);

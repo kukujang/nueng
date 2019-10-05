@@ -2,18 +2,13 @@ import React, { Component } from "react";
 import Profile from "../components/Profile";
 import MainNav from "../components/MainNav";
 import ExpList from "../components/exp/ExpList";
-import jsonData from "../data/experience.json";
+import { connect } from "react-redux";
+import { expFetch } from "../actions";
 
 class Experience extends Component {
-	
-	constructor(props) {
-		super(props);
-		this.state = { exps: "" };
-	}
 
 	componentDidMount() {
-		//console.log(jsonData);
-		this.setState(jsonData);
+		this.props.expFetch();
 	}
 
 	render() {
@@ -25,11 +20,15 @@ class Experience extends Component {
 				<MainNav />
 				<div className="main">
 					<h1 className="head-page font-style-2">Experience</h1>
-					<ExpList exps={this.state.exps} />
+					<ExpList exps={this.props.exps} />
 				</div>
 			</div>
 		);
 	}
 }
 
-export default Experience;
+function mapStateToProps(state) {
+	return { exps: state.exps}
+}
+
+export default connect(mapStateToProps, { expFetch })(Experience);

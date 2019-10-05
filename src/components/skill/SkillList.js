@@ -5,8 +5,8 @@ import shortid from 'shortid';
 class SkillList extends Component {
 
   showData() {
-    if (this.props.skills) {
-      return this.props.skills.map(
+    if (this.props.skills.skills) {
+      return this.props.skills.skills.map(
         skill => (
           <SkillItem key={shortid.generate()} name={skill.name} percent={skill.percent} exp={skill.exp} />
         )

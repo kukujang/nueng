@@ -3,9 +3,10 @@ import ExpItem from "./ExpItem";
 import shortid from 'shortid';
 
 class ExpList extends Component {
+	
 	showData() {
-		if (this.props.exps) {
-			return this.props.exps.map(exp => (
+		if (this.props.exps.exps) {
+			return this.props.exps.exps.map(exp => (
 				<ExpItem key={shortid.generate()} company={exp.company} photo={exp.photo} photo2x={exp.photo2x} when={exp.when} desc={exp.desc} />
 			));
 		}
