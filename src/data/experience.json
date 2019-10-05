@@ -8,7 +8,7 @@
       "desc": "<ul><li>เขียน HTML/CSS จากไฟล์ PSD หรือ AI โดยบางงานใช้ SCSS เขียน และ Compile ผ่าน Gulp</li><li>เพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น Carousel, Validate, Popup เป็นต้น</li><li>เขียน HTML5/CSS3 Animation เพิ่มลูกเล่นเข้าไปในชิ้นงาน</li><li>แก้ไขปัญหา Bug ต่าง ๆ ที่เกี่ยวกับ Display ของเว็บไซต์</li><li>ใช้ Git ในการทำงานร่วมกับ Developer</li><li>ใช้ Jira ในการทำงานต่าง ๆ ร่วมกับทีม</li></ul>"
     },
     {
-      "company": "MCFIVA (Thailand) Co.,Ltd.",
+      "company": "MCFIVA",
       "when": "Jan 2014 - April 2019",
       "photo": "http://www.nueng.work/api/img/exp/mcfiva.jpg",
       "photo2x": "http://www.nueng.work/api/img/exp/mcfiva@2x.jpg",

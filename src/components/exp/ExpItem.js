@@ -10,13 +10,11 @@ class ExpItem extends Component {
 
 		return (
 			<div className="exp-item">
-				<h2 className="head-blue font-style-4">
-					<span>
-						{company} ({when})
-					</span>
+				<h2 className="head-blue font-style-3">
+					<span className="bg">{company} <span className="sub">({when})</span></span>
 				</h2>
 				{photo===""?"":<div className="pic"><img src={photo} srcSet={photo2x+' 2x'} alt={company} /></div>}
-				<h3 className="head-subpage font-style-4">รายละเอียด</h3>
+				<h3 className="head-subpage font-style-4">ทำอะไรบ้าง ?</h3>
 				<div className="desc" dangerouslySetInnerHTML={createMarkup()} ></div>
 			</div>
 		);

@@ -13,7 +13,7 @@ class Profile extends Component {
 						<img src={photoMe} alt="Nueng" srcSet={photoMe2x+' 2x'} />
 					</div>
 				</div>
-				<h1 className="name font-style-4 align-center">Nuttaphol Anaman</h1>
+				<h1 className="name font-style-5 align-center">Nuttaphol Anaman</h1>
 				<div className="block-contact">
 					<h2 className="head-subpage font-style-5">Contact:</h2>
 					<ul>

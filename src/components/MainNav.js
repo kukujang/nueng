@@ -5,7 +5,7 @@ class MainNav extends Component {
 	render() {
 		return (
 			<div className="main-nav">
-				<ul className="clearfix font-style-4">
+				<ul className="clearfix font-style-5">
 					<li>
 						<NavLink exact to="/" activeClassName="active">Profile</NavLink>
 					</li>
