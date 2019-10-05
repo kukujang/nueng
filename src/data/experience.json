@@ -5,35 +5,35 @@
       "when": "May 2019 - Present",
       "photo": "",
       "photo2x": "",
-      "desc": "เขียน HTML/CSS จากไฟล์กราฟฟิค (PSD, AI) ที่ได้รับจากดีไซน์เนอร์ โดยเขียนให้แสดงผลรองรับในทุก ๆ อุปกรณ์ และเพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น jquery carousel, jquery validate และเขียน CSS Animation เพิ่มลูกเล่นเข้าไปในชิ้นงาน หลังจากนั้นจึงส่งไฟล์ต่อไปให้ Backend Developer พัฒนาต่อไป - ควมคุมการเขียนสคริปลูกเล่นต่าง ๆ ของเว็บไซต์ให้เป็นไปในทิศทางเดียวกัน หรือตามความต้องการของลูกค้า (Emotion) - ดูแลเรื่อง Layout หลักของเว็บไซต์ แก้ไข ปรับปรุง Bug ต่าง ๆ ที่เกี่ยวกับการแสดงผล - ใช้ SCSS เขียน และ Compile ผ่าน Gulp - ใช้ Git ในการทำงานร่วมกับ Developer ประมานทีมละ 3-4 คน - ใช้ Jira ในการทำงานต่าง ๆ ร่วมกับทีม"
+      "desc": "<ul><li>เขียน HTML/CSS จากไฟล์ PSD หรือ AI โดยบางงานใช้ SCSS เขียน และ Compile ผ่าน Gulp</li><li>เพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น Carousel, Validate, Popup เป็นต้น</li><li>เขียน HTML5/CSS3 Animation เพิ่มลูกเล่นเข้าไปในชิ้นงาน</li><li>แก้ไขปัญหา Bug ต่าง ๆ ที่เกี่ยวกับ Display ของเว็บไซต์</li><li>ใช้ Git ในการทำงานร่วมกับ Developer</li><li>ใช้ Jira ในการทำงานต่าง ๆ ร่วมกับทีม</li></ul>"
     },
     {
       "company": "MCFIVA (Thailand) Co.,Ltd.",
       "when": "Jan 2014 - April 2019",
       "photo": "http://www.nueng.work/api/img/exp/mcfiva.jpg",
       "photo2x": "http://www.nueng.work/api/img/exp/mcfiva@2x.jpg",
-      "desc": "เขียน HTML/CSS จากไฟล์กราฟฟิค (PSD, AI) ที่ได้รับจากดีไซน์เนอร์ โดยเขียนให้แสดงผลรองรับในทุก ๆ อุปกรณ์ และเพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น jquery carousel, jquery validate และเขียน CSS Animation เพิ่มลูกเล่นเข้าไปในชิ้นงาน หลังจากนั้นจึงส่งไฟล์ต่อไปให้ Backend Developer พัฒนาต่อไป - ควมคุมการเขียนสคริปลูกเล่นต่าง ๆ ของเว็บไซต์ให้เป็นไปในทิศทางเดียวกัน หรือตามความต้องการของลูกค้า (Emotion) - เขียน HTML สำหรับอีเมล - ดูแลเรื่อง Layout หลักของเว็บไซต์ แก้ไข ปรับปรุง Bug ต่าง ๆ ที่เกี่ยวกับการแสดงผล - เป็นที่ปรึกษา UX/UI ให้กับน้อง ๆ ในทีม Designer - ใช้ SCSS เขียน และ Compile ผ่าน Gulp - ดูแลระบบ CMS (Wordpress, Drupal, CMS พัฒนาเอง) อัปเดตเนื้อหาเว็บไซต์ของลูกค้า - ใช้ Git ในการทำงานร่วมกับ Developer"
+      "desc": "<ul><li>เขียน HTML/CSS จากไฟล์ PSD หรือ AI โดยบางงานใช้ SCSS เขียน และ Compile ผ่าน Gulp</li><li>เพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น Carousel, Validate, Popup เป็นต้น</li><li>เขียน HTML5/CSS3 Animation เพิ่มลูกเล่นเข้าไปในชิ้นงาน</li><li>เขียน Theme สำหรับ Wordpress / แก้ไข Theme ที่มีอยู่แล้ว</li><li>อัปเดตเนื้อหาเว็บไซต์ของลูกค้า</li><li>แก้ไขปัญหา Bug ต่าง ๆ ที่เกี่ยวกับ Display ของเว็บไซต์</li><li>เขียน HTML สำหรับอีเมล</li><li>เป็นที่ปรึกษา UX/UI ให้กับน้อง ๆ ในทีม Designer</li><li>ใช้ Git ในการทำงานร่วมกับ Developer</li></ul>"
     },
     {
       "company": "Design Sentiment",
       "when": "Oct 2011 – Dec 2013",
       "photo": "http://www.nueng.work/api/img/exp/design-sentiment.jpg",
       "photo2x": "http://www.nueng.work/api/img/exp/design-sentiment@2x.jpg",
-      "desc": "เขียน HTML/CSS จากไฟล์กราฟฟิค (PSD, AI) ที่ได้รับจากดีไซน์เนอร์ และเพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น jquery carousel, jquery validate และเขียน HTML5 เพิ่มลูกเล่นเข้าไปในชิ้นงาน หลังจากนั้นจึงส่งไฟล์ต่อไปให้ Backend Developer พัฒนาต่อไป - ดูแลระบบ CMS (Wordpress, Drupal, CMS พัฒนาเอง) อัปเดตเนื้อหาเว็บไซต์ของลูกค้า - เขียน HTML สำหรับอีเมล"
+      "desc": "<ul><li>เขียน HTML/CSS จากไฟล์กราฟฟิค PSD, AI</li><li>เพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น Carousel, Validate, Popup เป็นต้น</li><li>เขียน HTML5/CSS3 Animation เพิ่มลูกเล่นเข้าไปในชิ้นงาน</li><li>เขียน Theme สำหรับ Wordpress / แก้ไข Theme ที่มีอยู่แล้ว</li><li>อัปเดตเนื้อหาเว็บไซต์ของลูกค้า</li><li>แก้ไขปัญหา Bug ต่าง ๆ ที่เกี่ยวกับ Display ของเว็บไซต์</li><li>เขียน HTML สำหรับอีเมล</li></ul>"
     },
     {
       "company": "Inet Channel",
       "when": "Aug 2010 – Aug 2011",
       "photo": "",
       "photo2x": "",
-      "desc": "เขียน HTML/CSS จากไฟล์กราฟฟิค (PSD, AI) ที่ได้รับจากดีไซน์เนอร์ และเพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น jquery carousel, jquery validate หลังจากนั้นจึงส่งไฟล์ต่อไปให้ Backend Developer พัฒนาต่อไป - เขียน HTML สำหรับอีเมล"
+      "desc": "<ul><li>เขียน HTML/CSS จากไฟล์ PSD หรือ AI</li><li>เพิ่ม Javascript Plugin ต่าง ๆ ที่จำเป็น เช่น Carousel, Validate, Popup เป็นต้น</li><li>เขียน HTML สำหรับอีเมล</li>"
     },
     {
       "company": "Netcity",
       "when": "May 2010 – Aug 2010",
       "photo": "",
       "photo2x": "",
-      "desc": "ออกแบบเว็บไซต์ และเขียน HTML/CSS ส่งต่อให้ PHP Programmer"
+      "desc": "<ul><li>ออกแบบเว็บไซต์ด้วย Photoshop</li><li>เขียน HTML/CSS ส่งต่อให้ PHP Programmer</li><li>ปรับแต่ง SEO เบื้องต้น</li></ul>"
     }
   ]
 }
